@@ -10,3 +10,11 @@ Na pasta acima da raiz do seu projeto:
 ```shell
 composer create-project codeigniter4/appstarter project-root
 ```
+
+### Spark
+
+Inicia o servidor de desenvolvimento PHP do CodeIgniter:
+
+```shell
+php spark serve
+```

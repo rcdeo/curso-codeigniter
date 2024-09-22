@@ -18,3 +18,9 @@ Inicia o servidor de desenvolvimento PHP do CodeIgniter:
 ```shell
 php spark serve
 ```
+
+Gera um novo arquivo de controlador:
+
+```shell
+php spark make:controller <controller_name>
+```

@@ -8,13 +8,13 @@
 Utilizando o `Composer` para instalar o CodeIgniter4 no seu sistema:
 
 ```shell
-composer create-project codeigniter4/appstarter <project_name>
+composer create-project codeigniter4/appstarter project-root
 ```
 
 Por exemplo, você pode querer instalar a versão 4.3.3 após o lançamento da versão 4.5.5. Nesse caso, especifique a versão no comando:
 
 ```shell
-composer create-project codeigniter4/appstarter:4.3.3 <project_name>
+composer create-project codeigniter4/appstarter:4.3.3 project-root
 ```
 
 ### Spark
@@ -28,11 +28,11 @@ php spark serve
 Gerar um novo arquivo de `controller` ou `model`:
 
 ```shell
-php spark make:controller <controller_name>
+php spark make:controller <name> [options]
 ```
 
 ```shell
-php spark make:model <model_name>
+php spark make:model <name> [options]
 ```
 
 Exibe todas as rotas:

@@ -11,6 +11,9 @@ user_guide_src/cilexer/build/*
 user_guide_src/cilexer/dist/*
 user_guide_src/cilexer/pycilexer.egg-info/*
 
+#Environment Files
+#.env
+
 #Temporary Files
 */writable/cache/*
 #!*/writable/cache/index.html
